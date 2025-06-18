@@ -143,7 +143,8 @@
   }
 
   .carousel .carousel-slide .carousel-slide-content {
-    --slide-content-width: calc((100% - 184px) / 2);
+    /* --slide-content-width: calc((100% - 184px) / 2); */
+    --slide-content-width: auto;
 
     margin: 92px;
   }
