@@ -29,8 +29,8 @@
   justify-content: center;
   position: relative;
   width: 100%;
-  /* min-height: min(70vw, calc(100dvh - var(--header-height))); */
-  min-height: 670px;
+  min-height: min(70vw, calc(100dvh - var(--header-height)));
+  /* min-height: 670px; */
 }
 
 .carousel .carousel-slide:has(.carousel-slide-content[data-align='center']) {
@@ -143,8 +143,8 @@
   }
 
   .carousel .carousel-slide .carousel-slide-content {
-    /* --slide-content-width: calc((100% - 184px) / 2); */
-    --slide-content-width: auto;
+    --slide-content-width: calc((100% - 184px) / 2);
+    /* --slide-content-width: auto; */
 
     margin: 92px;
   }
